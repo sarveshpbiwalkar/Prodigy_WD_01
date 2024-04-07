@@ -1,0 +1,120 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+#navMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 1000;
+    background: linear-gradient(90deg, rgba(0,71,6,1) 0%, rgba(9,121,11,1) 100%);
+}
+
+#navMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#navMenu ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: color 0.3s ease;
+}
+
+#navMenu ul li a:hover {
+    color: black;
+}
+
+footer{
+    text-align: center;
+}
+
+#features{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+#aboutus{
+    display: flex;
+    line-height: 1.4;
+}
+
+#aboutus section{
+    padding: 2%;
+}
+
+#contactus {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contactus .card {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2%;
+    border-radius: 5px;
+    margin-top: 3%;
+  }
+  
+  #contactus form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contactus label {
+    margin-bottom: 1%;
+  }
+  
+  #contactus input,
+  #contactus textarea {
+    margin-bottom: 2%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  #contactus input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contactus input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+  button{
+    background-color: #4CAF50;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 30%;
+    height:  40px;
+    position: relative;
+    left: 35% ;
+    transition: transform .2s;
+  }
+
+  button:hover{
+    transform: scale(1.2);
+    font-weight: bold;
+    background-color:#296c2b;
+    color: #ffffff;
+  }
